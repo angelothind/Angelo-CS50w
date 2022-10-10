@@ -1,0 +1,8 @@
+button {
+    background-color: aqua;
+    color: rgb(226, 101, 43);
+}
+
+button:hover{
+    background-color: bisque;
+}

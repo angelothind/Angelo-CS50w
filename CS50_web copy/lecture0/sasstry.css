@@ -1,0 +1,33 @@
+h1 {
+  color: blue;
+}
+
+div {
+  font-weight: bolder;
+  font-size: medium;
+}
+div p {
+  color: aqua;
+}
+div ul {
+  color: bisque;
+  font-size: x-large;
+}
+
+.num2, .num1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: bolder;
+  text-align: center;
+  border: 0.5cm solid black;
+  border-width: 0.25cm;
+}
+
+.num1 {
+  background-color: blue;
+  color: red;
+}
+
+.num2 {
+  background-color: black;
+  color: wheat;
+}/*# sourceMappingURL=sasstry.css.map */

@@ -1,0 +1,38 @@
+$color : blue;
+
+h1 {
+    color: $color;
+}
+
+div{
+    font-weight: bolder;
+    font-size: medium;
+    p{
+        color: aqua;
+    }
+
+    ul{
+        color: bisque;
+        font-size: x-large;
+    }
+}
+
+%work {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    border: 0.5cm solid black;
+    border-width: 0.25cm;
+}
+
+.num1{ 
+    @extend %work;
+    background-color: $color;
+    color: red;
+}
+
+.num2{
+    @extend %work;
+    background-color: black;
+    color: wheat;
+}
